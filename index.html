@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Hub - Ashok's Journey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo.jpeg" alt="Logo" class="logo">
+                <span>Student Hub</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#bio" class="nav-link">Bio</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#dreams" class="nav-link">Dreams</a></li>
+                <li><a href="#goals" class="nav-link">Goals</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to My Student Journey</h1>
+                <p class="hero-subtitle">Discover my academic path, dreams, and achievements</p>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search content..." class="search-bar">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="side.jpeg" alt="Student Profile" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section id="bio" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="bio-grid">
+                <div class="bio-card">
+                    <div class="bio-image">
+                        <img src="side.jpeg" alt="Ashok R">
+                    </div>
+                    <div class="bio-content">
+                        <h3>Ashok R</h3>
+                        <p class="bio-title">Computer Science Student</p>
+                        <p class="bio-description">
+                            Passionate computer science student with a love for technology and innovation. 
+                            Currently pursuing my degree at Government Engineering College, Gadag. 
+                            I enjoy exploring new technologies, building projects, and helping others learn.
+                        </p>
+                        <div class="bio-stats">
+                            <div class="stat">
+                                <span class="stat-number">3</span>
+                                <span class="stat-label">Years Studying</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">4.0</span>
+                                <span class="stat-label">CGPA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Engineering</h3>
+                        <p class="timeline-subtitle">Computer Science & Engineering</p>
+                        <p class="timeline-school">Government Engineering College, Gadag</p>
+                        <p class="timeline-year">2022 - Present</p>
+                        <p class="timeline-description">Currently pursuing B.E. with focus on AI/ML, Web Development, and Software Engineering.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Pre-University Course</h3>
+                        <p class="timeline-subtitle">Science Stream (PCMB)</p>
+                        <p class="timeline-school">Morarji Desai Residential College, Chikkaballapura</p>
+                        <p class="timeline-year">2021 - 2022</p>
+                        <p class="timeline-description">Completed PUC with distinction, focusing on science subjects.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p class="timeline-subtitle">SSLC</p>
+                        <p class="timeline-school">Morarji Desai Residential School, Tumkuru</p>
+                        <p class="timeline-year">2006 - 2020</p>
+                        <p class="timeline-description">Completed schooling with excellent academic performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dreams Section -->
+    <section id="dreams" class="section">
+        <div class="container">
+            <h2 class="section-title">Future Dreams</h2>
+            <div class="dreams-grid">
+                <div class="dream-card">
+                    <div class="dream-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Tech Entrepreneur</h3>
+                    <p>Start my own technology company focused on AI solutions for education and healthcare.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 35%"></div>
+                    </div>
+                    <span class="progress-text">35% Complete</span>
+                </div>
+                
+                <div class="dream-card">
+                    <div class="dream-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Advanced Studies</h3>
+                    <p>Pursue Master's degree in Computer Science with specialization in Artificial Intelligence.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 60%"></div>
+                    </div>
+                    <span class="progress-text">60% Complete</span>
+                </div>
+                
+                <div class="dream-card">
+                    <div class="dream-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Impact</h3>
+                    <p>Develop technology solutions that can make a positive impact on society worldwide.</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 20%"></div>
+                    </div>
+                    <span class="progress-text">20% Complete</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Goals Section -->
+    <section id="goals" class="section">
+        <div class="container">
+            <h2 class="section-title">My Goals</h2>
+            <div class="goals-container">
+                <div class="goal-category">
+                    <h3>Academic Goals</h3>
+                    <div class="goal-list">
+                        <div class="goal-item">
+                            <input type="checkbox" id="goal1" checked>
+                            <label for="goal1">Maintain 4.0 CGPA</label>
+                        </div>
+                        <div class="goal-item">
+                            <input type="checkbox" id="goal2">
+                            <label for="goal2">Complete 20+ projects</label>
+                        </div>
+                        <div class="goal-item">
+                            <input type="checkbox" id="goal3">
+                            <label for="goal3">Publish research paper</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="goal-category">
+                    <h3>Skill Development</h3>
+                    <div class="goal-list">
+                        <div class="goal-item">
+                            <input type="checkbox" id="skill1" checked>
+                            <label for="skill1">Master React & Node.js</label>
+                        </div>
+                        <div class="goal-item">
+                            <input type="checkbox" id="skill2" checked>
+                            <label for="skill2">Learn Machine Learning</label>
+                        </div>
+                        <div class="goal-item">
+                            <input type="checkbox" id="skill3">
+                            <label for="skill3">Get AWS certification</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="goal-category">
+                    <h3>Personal Growth</h3>
+                    <div class="goal-list">
+                        <div class="goal-item">
+                            <input type="checkbox" id="personal1" checked>
+                            <label for="personal1">Improve public speaking</label>
+                        </div>
+                        <div class="goal-item">
+                            <input type="checkbox" id="personal2">
+                            <label for="personal2">Build professional network</label>
+                        </div>
+                        <div class="goal-item">
+                            <input type="checkbox" id="personal3">
+                            <label for="personal3">Mentor junior students</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="academic">Academic</button>
+                <button class="filter-btn" data-filter="projects">Projects</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item academic" data-category="academic">
+                    <img src="https://via.placeholder.com/300x200/4CAF50/white?text=Academic+Achievement" alt="Academic">
+                    <div class="gallery-overlay">
+                        <h4>Academic Excellence</h4>
+                        <p>Dean's List Recognition</p>
+                    </div>
+                </div>
+                <div class="gallery-item projects" data-category="projects">
+                    <img src="https://via.placeholder.com/300x200/2196F3/white?text=Web+Project" alt="Project">
+                    <div class="gallery-overlay">
+                        <h4>Web Development</h4>
+                        <p>Portfolio Website</p>
+                    </div>
+                </div>
+                <div class="gallery-item events" data-category="events">
+                    <img src="https://via.placeholder.com/300x200/FF9800/white?text=Tech+Event" alt="Event">
+                    <div class="gallery-overlay">
+                        <h4>Tech Symposium</h4>
+                        <p>AI Workshop Participation</p>
+                    </div>
+                </div>
+                <div class="gallery-item projects" data-category="projects">
+                    <img src="https://via.placeholder.com/300x200/9C27B0/white?text=Mobile+App" alt="App">
+                    <div class="gallery-overlay">
+                        <h4>Mobile App</h4>
+                        <p>Student Helper App</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="section">
+        <div class="container">
+            <h2 class="section-title">Student Dashboard</h2>
+            <div class="dashboard-grid">
+                <div class="dashboard-card">
+                    <h3>Class Schedule</h3>
+                    <div class="schedule-list">
+                        <div class="schedule-item">
+                            <span class="time">9:00 AM</span>
+                            <span class="subject">Data Structures</span>
+                            <span class="room">CS-301</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">11:00 AM</span>
+                            <span class="subject">Web Development</span>
+                            <span class="room">CS-205</span>
+                        </div>
+                        <div class="schedule-item">
+                            <span class="time">2:00 PM</span>
+                            <span class="subject">Machine Learning</span>
+                            <span class="room">CS-401</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-card">
+                    <h3>Upcoming Deadlines</h3>
+                    <div class="deadline-list">
+                        <div class="deadline-item urgent">
+                            <span class="deadline-title">DSA Assignment</span>
+                            <span class="deadline-date">Due: Tomorrow</span>
+                        </div>
+                        <div class="deadline-item">
+                            <span class="deadline-title">Project Report</span>
+                            <span class="deadline-date">Due: 3 days</span>
+                        </div>
+                        <div class="deadline-item">
+                            <span class="deadline-title">Quiz #2</span>
+                            <span class="deadline-date">Due: 5 days</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-card">
+                    <h3>Quick Stats</h3>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <i class="fas fa-book"></i>
+                            <span class="stat-number">8</span>
+                            <span class="stat-label">Active Courses</span>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-tasks"></i>
+                            <span class="stat-number">12</span>
+                            <span class="stat-label">Pending Tasks</span>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-chart-line"></i>
+                            <span class="stat-number">92%</span>
+                            <span class="stat-label">Attendance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#bio">About Me</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#dreams">Dreams</a></li>
+                        <li><a href="#goals">Goals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: ashok@student.com</p>
+                    <p>Phone: +91 7892868963</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ashok's Student Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
